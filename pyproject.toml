@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example-selector"
+version = "0.1.0"
+description = "Dynamic few-shot example selection for agent prompts (Google ADK, Langchain, Langgraph)"
+requires-python = ">=3.10"
+dependencies = [
+    "lancedb>=0.20",
+    "sentence-transformers>=2.0",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+adk = ["google-adk>=1.0"]
+langchain = ["langchain-core>=0.3"]
+langgraph = ["langgraph>=0.2"]
+all = [
+    "google-adk>=1.0",
+    "langchain-core>=0.3",
+    "langgraph>=0.2",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "google-adk>=1.0",
+    "langchain-core>=0.3",
+    "langgraph>=0.2",
+    "langchain-google-genai>=2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.setuptools.packages.find]
+include = ["example_selector*"]
