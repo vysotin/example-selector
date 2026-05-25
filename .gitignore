@@ -1,3 +1,16 @@
 .claude
 .env
 .idea
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Local example databases
+examples_db/
+examples/**/examples_db/

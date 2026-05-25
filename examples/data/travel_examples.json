@@ -1,0 +1,122 @@
+[
+  {
+    "input_text": "I want to book a hotel in Paris for 3 nights",
+    "output_text": "I'd be glad to help you find a hotel in Paris. To narrow down the best options, could you share your check-in date, number of guests, preferred neighborhood (e.g. Le Marais, Montmartre), and approximate nightly budget?",
+    "category": "hotels",
+    "metadata": "intent=search"
+  },
+  {
+    "input_text": "Find me a 4-star hotel near Times Square under $300 per night",
+    "output_text": "Searching 4-star hotels within walking distance of Times Square under $300/night. May I confirm your dates and the number of guests so I can return live availability?",
+    "category": "hotels",
+    "metadata": "intent=search"
+  },
+  {
+    "input_text": "Cancel my hotel reservation for next weekend",
+    "output_text": "Of course. To cancel your reservation, could you share the booking reference or the email address used for the booking? I'll also confirm the cancellation policy and any refund amount before we proceed.",
+    "category": "hotels",
+    "metadata": "intent=cancel"
+  },
+  {
+    "input_text": "Can I change my hotel booking to a king-size bed?",
+    "output_text": "Yes, I can request a room change. Please share your booking reference, and I'll check availability for a king room for the same dates. Note that the rate may differ depending on the room type.",
+    "category": "hotels",
+    "metadata": "intent=modify"
+  },
+  {
+    "input_text": "Does the Marriott in Berlin include breakfast?",
+    "output_text": "Breakfast at the Berlin Marriott is included on certain rate plans (typically \"Bed & Breakfast\" or \"Premium\" rates). On the standard \"Room Only\" rate, breakfast can be added for around €28 per person per day. Would you like me to check availability with breakfast included?",
+    "category": "hotels",
+    "metadata": "intent=amenities"
+  },
+  {
+    "input_text": "What's the cancellation policy for my booking?",
+    "output_text": "Cancellation policies depend on the rate type. Flexible rates allow free cancellation up to 24–48 hours before check-in. Non-refundable rates cannot be cancelled. If you share your booking reference, I'll quote the exact policy on your reservation.",
+    "category": "hotels",
+    "metadata": "intent=policy"
+  },
+  {
+    "input_text": "I need 5 rooms for a corporate retreat",
+    "output_text": "Happy to help arrange a group booking. For 5 or more rooms I can request a group rate, which often includes a small discount and flexible cancellation. Could you share the destination, dates, and any meeting-room requirements?",
+    "category": "hotels",
+    "metadata": "intent=group"
+  },
+  {
+    "input_text": "Can I redeem my loyalty points at the Hilton Tokyo?",
+    "output_text": "Yes, Hilton Honors points can be redeemed at the Hilton Tokyo. A standard room typically runs 60,000–80,000 points per night depending on the season. If you share your dates and member number I can confirm the exact award rate.",
+    "category": "hotels",
+    "metadata": "intent=loyalty"
+  },
+  {
+    "input_text": "I need a hotel room accessible for a wheelchair",
+    "output_text": "Absolutely. I'll filter the search to ADA-compliant accessible rooms with roll-in showers and step-free access. Could you confirm the city, dates, and whether you need any additional accommodations (e.g. service animal, visual alarms)?",
+    "category": "hotels",
+    "metadata": "intent=special_request"
+  },
+  {
+    "input_text": "What time is check-in at the Hyatt Chicago?",
+    "output_text": "Standard check-in at the Hyatt Chicago is 3:00 PM and check-out is 12:00 PM. Early check-in and late check-out can usually be requested at no charge subject to availability — want me to add the request to your reservation?",
+    "category": "hotels",
+    "metadata": "intent=info"
+  },
+  {
+    "input_text": "I need a flight from New York to London next Friday",
+    "output_text": "Got it — one-way or round trip? And how many passengers? Once I have that I'll surface direct flights from JFK/EWR to LHR for next Friday with fare and departure-time options.",
+    "category": "flights",
+    "metadata": "intent=search"
+  },
+  {
+    "input_text": "Book me a round-trip flight to Tokyo, business class",
+    "output_text": "Happy to help with a round-trip business-class fare to Tokyo. Could you share your departure airport, outbound date, return date, and number of passengers? I'll then return the best business-class options on direct carriers.",
+    "category": "flights",
+    "metadata": "intent=book"
+  },
+  {
+    "input_text": "Cancel my United flight to Denver",
+    "output_text": "I can help cancel your United flight to Denver. Please provide the 6-character confirmation code so I can pull up the booking and review the refund eligibility based on your fare class.",
+    "category": "flights",
+    "metadata": "intent=cancel"
+  },
+  {
+    "input_text": "Change my flight from Saturday to Sunday",
+    "output_text": "I can submit a date-change request. Could you share the confirmation code and your preferred Sunday departure window? A fare difference and change fee may apply depending on the airline and fare class.",
+    "category": "flights",
+    "metadata": "intent=change_date"
+  },
+  {
+    "input_text": "How many bags can I check on Delta economy?",
+    "output_text": "On Delta Main Cabin (economy) domestic flights, the first checked bag is $35 and the second is $45, each up to 50 lbs / 23 kg. On most international routes one checked bag is included. Want me to add bags to your existing booking?",
+    "category": "flights",
+    "metadata": "intent=baggage"
+  },
+  {
+    "input_text": "Can I select my seat for the Lufthansa flight?",
+    "output_text": "Yes — with your booking reference I can open the seat map and reserve a seat. Economy standard seats are complimentary; Economy Extra (extra legroom) and Premium Economy seats carry a fee, usually €30–€120 depending on route.",
+    "category": "flights",
+    "metadata": "intent=seat"
+  },
+  {
+    "input_text": "What's the status of American Airlines flight 100?",
+    "output_text": "Let me look that up. Could you confirm the date of travel? I'll fetch the latest scheduled and actual departure/arrival times, gate, and any delays for AA100.",
+    "category": "flights",
+    "metadata": "intent=status"
+  },
+  {
+    "input_text": "I have a 6-hour layover in Dubai — anything you'd suggest?",
+    "output_text": "Six hours is enough to leave the airport. The Dubai Metro reaches Downtown in about 45 minutes; the Burj Khalifa observation deck or a quick visit to Dubai Mall fits comfortably. Otherwise, the Emirates and Marhaba lounges offer showers and quiet seating. Want me to check lounge access on your ticket?",
+    "category": "flights",
+    "metadata": "intent=layover"
+  },
+  {
+    "input_text": "Am I eligible for a refund on a non-refundable ticket?",
+    "output_text": "Non-refundable tickets generally aren't refundable in cash, but most airlines offer a travel credit minus a change/cancel fee if you cancel before departure. Some refunds are available for schedule changes, illness with documentation, or under 24-hour cancellation rules. Share the booking and I'll check the specific options.",
+    "category": "flights",
+    "metadata": "intent=refund"
+  },
+  {
+    "input_text": "Can I upgrade to first class with miles?",
+    "output_text": "Mileage upgrades are typically available on most fare classes — award space and copays vary by route and airline. If you share the booking reference and your frequent-flyer number I can check upgrade availability and the miles + copay required.",
+    "category": "flights",
+    "metadata": "intent=upgrade"
+  }
+]
